@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật nhà hàng</title>
+    <link rel="stylesheet" href="/add-infoRes/add-infoRes.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="shortcut icon" href="/img/icons8-restaurant-building-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="text-center">
+                    <a href="/" class="nav-brand text-dark">Quản lí hệ thống nhà hàng</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex-justify-between">
+                <div class="filter">
+                    <a href="/">
+                        <i class="fa-solid fa-angles-left"></i>
+                        <span style="font-size: 1.5rem;">
+                            Tất cả nhà hàng
+                        </span>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="form-title text-center">
+                <h2 class="text-dark">Cập nhật nhà hàng</h2>
+                <span class="text-light">Cập nhật nhà hàng với biểu mẫu bên dưới</span>
+            </div>
+    
+            <form id="add-restaurant">
+                <div class="new-restaurant">
+                    <div class="form-group">
+                        <label for="ID" class="form-label text-light">ID</label>
+                        <input type="text" name="ID" id="ID">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="NAME" class="form-label text-light">Tên</label>
+                        <input type="text" name="NAME" id="NAME">
+                    </div>
+                    <div class="form-group">
+                        <label for="BOROUGH" class="form-label text-light">Quận</label>
+                        <input type="text" name="BOROUGH" id="BOROUGH">
+                    </div>
+                    <div class="form-group">
+                        <label for="CUISINE" class="form-label text-light">Ẩm thực</label>
+                        <input type="text" name="CUISINE" id="CUISINE">
+                    </div>
+                    
+            
+                    <div class="form-group">
+                        <label for="COORD" class="form-label text-light">Tọa độ</label>
+                        <input type="text" name="COORD" id="COORD">
+                    </div>
+                    <div class="form-group">
+                        <label for="BUILDING" class="form-label text-light">Tòa nhà</label>
+                        <input type="text" name="BUILDING" id="BUILDING">
+                    </div>
+                    <div class="form-group">
+                        <label for="STREET" class="form-label text-light">Đường</label>
+                        <input type="text" name="STREET" id="STREET">
+                    </div>
+                    <div class="form-group">
+                        <label for="ZIPCODE" class="form-label text-light">Mã bưu chính</label>
+                        <input type="text" name="ZIPCODE" id="ZIPCODE">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="DATE" class="form-label text-light" >Ngày</label>
+                        <input type="datetime" style="border: 1px solid #ccc; border: 1px solid #ccc;width: 30%; padding: 0 4px; height: 28px; border-radius: 2px;" name="DATE" id="DATE">
+                    </div>
+                    <div class="form-group">
+                        <label for="GRADE" class="form-label text-light">Khối</label>
+                        <input type="text" name="GRADE" id="GRADE">
+                    </div>
+                    <div class="form-group">
+                        <label for="SCORE" class="form-label text-light">Điểm</label>
+                        <input type="text" name="SCORE" id="SCORE">
+                    </div>
+                    
+                    <button type="button" id="btnUpdate" style="background-color: #2fb9eb;" class="btn text-dark update">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="/update-infoRes/update-infoRes.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin nhà hàng</title>
+    <link rel="stylesheet" href="/home/home.css">
+    <link rel="shortcut icon" href="/img/icons8-restaurant-building-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="text-center">
+                    <a href="/" class="nav-brand text-dark">Quản lí hệ thống nhà hàng</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    
+    <main id="site-main">  
+        <div class="icon-search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>  
+        </div>
+        <div id="search">
+            <form id="form-search">
+                <input type="text" class="inputFind" placeholder="Tìm kiếm">
+                <button class="btn-search">Tìm</button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="box-nav d-flex-justify-between">
+                <a href="/add-infoRes" class="border-shadow">
+                    <span class="text-gradient">
+                        Thêm nhà hàng
+                        <i class="fa-solid fa-utensils"></i>
+                    </span>
+                </a>
+            </div>
+
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>STT</th>
+                        <th>ID</th>
+                        <th>Tên</th>
+                        <th>Quận</th>
+                        <th>Ẩm thực</th>
+                        <th>Đường</th>
+                        <th>Tòa nhà</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+
+                <tbody class="restaurant-list">
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src="/home/home.js"></script>
+</body>
+</html>
